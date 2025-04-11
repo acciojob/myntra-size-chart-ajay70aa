@@ -1,2 +1,32 @@
 
 /* Your CSS Code here. */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ccc; /* or any light color */
+  padding: 8px;
+  text-align: left;
+}
+
+/* Optional: Remove borders from tr explicitly */
+tr {
+  border: none;
+}
+.value {
+	text-align: right;
+}
+.row-1 {
+	background-color: rgb(235, 77, 66);
+}
+.row-2 {
+	background-color: rgb(156, 81, 76)
+}
+.row-3 {
+	background-color: rgb(145, 134, 134)
+}
+.row-4 {
+	background-color: rgb(227, 227, 227)
+}
